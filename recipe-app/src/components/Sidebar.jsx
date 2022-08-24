@@ -11,6 +11,7 @@ export default function Sidebar({links, close}){
                     {link.name}
                 </Link>
             )) }
-        </div>
+        </div>  
+        
     )
 }
