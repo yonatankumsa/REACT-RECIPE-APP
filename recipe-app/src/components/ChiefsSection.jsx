@@ -36,7 +36,7 @@ export default function ChiefsSection(){
             name: "Ben Affleck",
             img: "/img/top-chiefs/img_6.jpg",
             recipesCount: "04",
-            cuisine: "Indian"
+            cuisine: "Ethiopian"
         }
     ]
     return (
