@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link, useLocation } from "react-router-dom"
-import "../styles/partials/_footer.scss"
 
 export default function Sidebar({links, close}){
     const location = useLocation()
@@ -12,7 +11,6 @@ export default function Sidebar({links, close}){
                     {link.name}
                 </Link>
             )) }
-        </div>  
-
+        </div>
     )
 }
